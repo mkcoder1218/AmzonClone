@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+body{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgb(9, 1, 29);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0.5%;
+}
+.logo{
+  width: 5%;
+  margin-left: 1%;
+ 
+}
+.Location{
+  display: flex;
+  margin-left: 3%;
+}
+.Location p{
+  font-size: 13px;
+  color: gray;
+}
+.Location svg{
+  color: white;
+  font-size: 18px;
+}
+.Location .countery{
+  font-size: 15px;
   color: white;
 }
+.Search{
+  display: flex;
+  margin-left: 2%;
 
-.App-link {
-  color: #61dafb;
+width: 60%;
+
+
+}
+.Search select{
+  flex: 1;
+  align-items: flex-start;
+  background-color: rgb(227, 227, 227);
+  border-radius: 0.3rem 0rem 0rem 0.3rem;
+  padding: 10px;
+  outline: none;
+}
+.Search svg{
+  background-color: orange;
+  padding: 1%;
+ border-radius: 0rem 0.3rem 0.3rem 0rem;
+}
+.SearchBar{
+width: 100%;
+padding: 0.7%;
+outline: none;
+}
+.left{
+  display: flex;
+  flex: 3;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 3%;
+  color: white;
+
+  font-size: 13px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left select{
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-weight: 700;
+}
+.cart{
+  display: flex;
+  font-weight: bold;
+  margin-right: 3%;
+}
+.OrdersRet{
+  display:block
+}
+.secound_header{
+  display: flex;
+  background-color: rgba(0, 22, 83, 0.864);
+  align-items: center;
+gap: 1%;
+color: white;
+font-weight: 500;
+padding: 0.5%;
+font-size: 13px;
+position: sticky;
+}
+.All{
+  display: flex;
+  align-items: center;
+  
 }
